@@ -1,3 +1,30 @@
+Can you quickly introduce yourself and your skills?
+
+I am a core UI Developer with 12+ years of experience building .com websites for different organizations using HTML5, CSS3, JavaScript, Angular 18, React.js, and Redux. 
+In the past 2 years, I worked on the React migration team, where I converted the .net pages to react on united.com. 
+Frontend is React, and used ATMOS (Own library) components used company wide.
+
+Worked on Security features for users where they can manage there account like Forgot password, Forgot MileagePlus number, 
+security questions, Sign-in features, Miles-Pooling, United Club pass,  Recent Activity, dashboard updates and 
+KTN(Known Traveler Number), Accessibility guidelines features on united.com.
+
+used middleware such as redux-saga to handle asynchronous tasks such as API calls, data fetching, and impure actions in a more organized and efficient way.
+
+The new initiative worked on Miles-Pooling( points you get after traveling), TSA Precheck, Account security and management features, and Under18.
+
+Previously worked with Accelerator team for Visa Inc. remediation of MBDA modules like Application Management, Account Management, Portfolio Management, Analytics, Recurring billing, Virtual Terminal, etc for bank users like Wells Fargo,  Bank of America, etc
+
+Capital Group worked on DAVIS Project. Davis stands for Data visualization where we build different highcharts using react and integrate into the AEM., the backend is Java. Previously I worked on Creative Workbench, a writing tool where articles are published on capital group websites.
+
+At Cerner Corporation worked on the medical examination forms.
+
+In Office Depot worked on black Friday reporting.
+
+Satinos Technologies created a tax portal and a schoomin website for the Vignan schools.
+
+
+
+
 1. Semantic HTML
 Semantic HTML uses meaningful tags (like <article>, <section>, <nav>, <header>, <footer>) that describe the content inside them.
 It improves accessibility, SEO, and code readability.
@@ -26,6 +53,7 @@ JavaScript: Dynamically typed, interpreted.
 TypeScript: Superset of JS with static typing and compile-time checks. Improves code maintainability and developer tooling.
 
 6. ES6 Features (Key ones)
+
 let & const (block scoping)
 
 Arrow functions
@@ -87,3 +115,13 @@ coding question js code for input field with submittion that takes width and hei
   </script>
 </body>
 </html>
+
+-------------------------
+Have you worked on GraphQL?
+
+Yes, I’ve worked with GraphQL in multiple projects. 
+I’ve used Apollo Client on the frontend with React to query and mutate data efficiently. 
+On the backend, I’ve worked with Node.js and Apollo Server, defining schemas, resolvers, and integrating with services like MongoDB or REST APIs.
+
+I prefer GraphQL over REST when the client needs specific, nested data or wants to reduce over-fetching. 
+I’m comfortable writing queries, mutations, fragments, and handling things like pagination, error states, and caching with Apollo.
