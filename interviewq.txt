@@ -1,0 +1,89 @@
+1. Semantic HTML
+Semantic HTML uses meaningful tags (like <article>, <section>, <nav>, <header>, <footer>) that describe the content inside them.
+It improves accessibility, SEO, and code readability.
+
+2. Z-index
+z-index controls the stacking order of elements on the z-axis (front to back). Higher z-index values appear above lower ones, 
+but it only works on elements with a positioned context (relative, absolute, fixed, or sticky).
+
+
+3. Accessibility
+Accessibility ensures web apps are usable by everyone, including people with disabilities. 
+It includes keyboard navigation, screen reader support, color contrast, semantic HTML, and ARIA roles.
+
+4. aria-label
+aria-label is an accessibility attribute that provides a label for elements (especially non-textual ones) for screen readers. 
+Useful when visible text isn't available.
+<button aria-label="Close modal">
+  <svg>...</svg>
+</button>
+
+
+5. JavaScript vs TypeScript
+
+JavaScript: Dynamically typed, interpreted.
+
+TypeScript: Superset of JS with static typing and compile-time checks. Improves code maintainability and developer tooling.
+
+6. ES6 Features (Key ones)
+let & const (block scoping)
+
+Arrow functions
+
+Template literals
+
+Destructuring
+
+Default params
+
+Spread/rest operators
+
+Promises
+
+Modules (import/export)
+
+Classes
+
+
+
+coding question js code for input field with submittion that takes width and height?
+<!DOCTYPE html>
+<html>
+<head>
+  <title>JS Box Compiler</title>
+</head>
+<body>
+  <h3>Create a Colored Box</h3>
+
+  <input type="text" id="codeInput" placeholder="Enter JS code here" style="width: 400px;" />
+  <button onclick="runCode()">Run</button>
+
+  <p>Example: <code>createBox(100, 50)</code></p>
+
+  <div id="output" style="margin-top: 20px;"></div>
+
+  <script>
+    function createBox(width, height) {
+      const box = document.createElement('div');
+      box.style.width = `${width}px`;
+      box.style.height = `${height}px`;
+      box.style.backgroundColor = 'tomato';
+      box.style.border = '1px solid #333`;
+      box.style.marginTop = '10px';
+
+      const output = document.getElementById('output');
+      output.innerHTML = '';
+      output.appendChild(box);
+    }
+
+    function runCode() {
+      const userCode = document.getElementById('codeInput').value;
+      try {
+        eval(userCode); // Use only in safe playground context
+      } catch (err) {
+        alert('Error in code: ' + err.message);
+      }
+    }
+  </script>
+</body>
+</html>
