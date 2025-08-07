@@ -125,3 +125,21 @@ On the backend, I’ve worked with Node.js and Apollo Server, defining schemas, 
 
 I prefer GraphQL over REST when the client needs specific, nested data or wants to reduce over-fetching. 
 I’m comfortable writing queries, mutations, fragments, and handling things like pagination, error states, and caching with Apollo.
+
+What are the popular hooks in react and explain it's usage?
+
+useState: Manages state in functional components.
+useEffect: Manages side effects in functional components.
+useContext: Consumes context in functional components.
+useReducer: Manage state with a reducer function, For More complex state management.
+useRef: Accesses DOM elements or stores mutable values.
+useCallback: performance improvement usecase
+useMemo: performance improvement usecase.
+
+3. How do you optimize performance in a React app?
+
+Memoization with useMemo and useCallback: Use this hooks to memoize values and, reducing unnecessary recalculations.
+Optimizing Renders with React.Fragment: Use it to avoid unnecessary wrapper elements that could cause additional DOM nodes.
+Lazy loading with React.lazy: Use it to load components lazily, reducing the intial bundle size and imporving intial loading performance.
+Code splitting: Employ code splitting to divide your application into smaller chunks that are loaded on demand, improving initial load times.
+Optimizing Images and Assets: Compress and optimize images, use responsive images and leverage lazy loading for images to reduce network and rendering overhead.
